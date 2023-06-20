@@ -1,70 +1,67 @@
-# Getting Started with Create React App
+# Events Management Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The Events Management Application is a web application designed to simplify event creation, management, and attendance. It provides a user-friendly interface for users to create, discover, and register for events of their interest. The application offers a comprehensive set of features for event organizers and attendees, making it easy to plan, promote, and participate in various events.
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+- **Event Creation and Management**: Organizers can easily create and manage events by providing event details such as name, date, time, location, description, and ticketing information.
 
-### `npm start`
+- **Event Discovery**: Users can search for events based on different criteria such as location, date, category, or keyword. They can view event details, including descriptions, locations, dates, times, and ticketing information.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **Event Registration and Ticketing**: Attendees can register for events by purchasing tickets through the application. Integration with a payment gateway facilitates secure online transactions.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- **User Profiles and Dashboard**: Users can create and manage their profiles with personal information and preferences. They have access to a personalized dashboard where they can view their registered events, event recommendations, and manage their tickets.
 
-### `npm test`
+- **Event Notifications and Reminders**: Attendees receive notifications and reminders for upcoming events they have registered for, ensuring they don't miss out on any important information.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Event Reviews and Ratings**: Attendees can provide reviews and ratings for attended events, sharing their experiences and feedback with others. This helps other users make informed decisions when choosing events to attend.
 
-### `npm run build`
+- **Social Sharing and Integration**: Integration with social media platforms allows users to easily share events with their network and invite friends to join.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Technologies Used
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- Frontend: React.js, HTML, CSS, JavaScript
+- Backend: Node JS
+- Database: MongoDB (or any preferred database)
+- Authentication: JWT (JSON Web Tokens)
+- Payment Integration: Mpesa Intergration (Daraja)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Getting Started
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1. Clone the repository:
+   
+   git clone https://github.com/your-username/events-management-app.git
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Install dependencies:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+  cd events-management-app
+  
+  npm install
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+3. Set up the database and connection:
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start the development server:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+npm start
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+5. Access the application in your web browser at `http://localhost:3000`.
 
-### Analyzing the Bundle Size
+## Contributing
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+To be Discussed 
 
-### Making a Progressive Web App
+## License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+MIT
 
-### Advanced Configuration
+## Acknowledgments
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+TBD
 
-### Deployment
+## Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Reach out via email at : brandonkanute@gmail.com 
